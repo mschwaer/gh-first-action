@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-24.04
     steps:
-      - name: Print greeting:
+      - name: Print greeting
         run: echo "Hello World"
       - name: Print goodby
         run: echo "Done By"
